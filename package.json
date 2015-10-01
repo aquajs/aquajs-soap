@@ -1,0 +1,66 @@
+{
+  "name": "aquajs-soap",
+  "version": "0.1.2",
+  "description": "A minimal node SOAP client",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "author": {
+    "name": "Chen Xi",
+    "email": "xi.chen@ap.equinix.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:aquajs/aquajs.git"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "request": ">=2.9.0",
+    "sax": ">=0.6",
+    "strip-bom": "~0.3.1",
+    "debug": "~0.7.4"
+  },
+  "main": "./index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "keywords": [
+    "soap"
+  ],
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "jshint": "2.3.0",
+    "glob": "~3.2.8",
+    "should": "~3.3.0",
+    "timekeeper": "~0.0.4"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.corp.equinix.com/nexus/content/repositories/Equinix-AquaJS-Release/"
+  },
+  "readme": "aquajs-soap\n====================================\nThe Friendly & Fun Javascript Fullstack Framework for your next API/Web/Mobile/IOT/Wearables application.\nIt is designed to give you a quick and organized way to start developing an application. We mainly try to take care of the connection points between existing popular frameworks and solve common integration problems.\n\n## Key drivers:\n\n   * Enables developers to focus on writing reusable application logic instead of spending time building infrastructure\n   * It’s designed to give a quick and organized way to start developing  Applications / Services\n   * We mainly try to take care of the connection points between existing popular module / frameworks and solve common integration problems.\n   * AquaJS is a secure and scalable layer that extends express by providing structure and convention.\n\n## Prerequisites:\n\n Node.js - Download and Install Node.js. You can also follow this gist for a quick and easy way to install Node.js and npm\n \n## Info:\n\n[Using the built-in performance monitor](https://github.com/aquajs/aquajs/wiki/Using-aquajs-performance-monitor)\n\n\n                            Designed with ❤ and care by Emerging Software & Platforms Team\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/aquajs/aquajs/issues"
+  },
+  "homepage": "https://github.com/aquajs/aquajs",
+  "_id": "aquajs-soap@0.1.1",
+  "scripts": {},
+  "_shasum": "ff1552b9a3efa05c000df9a24d07f3b4c0111a33",
+  "_from": "aquajs-soap@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "aatibudhi",
+    "email": "aatibudhi@equinix.com"
+  },
+  "maintainers": [
+    {
+      "name": "aatibudhi",
+      "email": "aatibudhi@equinix.com"
+    }
+  ],
+  "dist": {
+    "shasum": "ff1552b9a3efa05c000df9a24d07f3b4c0111a33",
+    "tarball": "http://nexus.corp.equinix.com/nexus/content/groups/Equinix-NPM-Release/aquajs-soap/-/aquajs-soap-0.1.1.tgz"
+  },
+  "_resolved": "http://nexus.corp.equinix.com/nexus/content/groups/Equinix-NPM-Release/aquajs-soap/-/aquajs-soap-0.1.1.tgz"
+}
