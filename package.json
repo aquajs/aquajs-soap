@@ -9,16 +9,26 @@
     "name": "Chen Xi",
     "email": "xi.chen@ap.equinix.com"
   },
+    "developers": [
+    "Venkat Rangasamy <vrangasamy@equinix.com>",
+    "Aswini Atibudhi <aatibudhi@equinix.com>",
+    "Tony Pujals <tpujals@equinix.com> (http://twitter.com/subfuzion)",
+    "Peter Svetlichny <psvetlichny@equinix.com> (http://twitter.com/p_svetlichny)",
+    "Uma More <umore@equinix.com>",
+    "Elcina Tuscano <etuscano@equinix.com>",
+    "Chakradhar Jonagam <cjonagam@equinix.com>",
+    "Namratha Ambekar <nambekar@equinix.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com:aquajs/aquajs.git"
   },
   "dependencies": {
-    "lodash": "~2.4.1",
-    "request": ">=2.9.0",
-    "sax": ">=0.6",
-    "strip-bom": "~0.3.1",
-    "debug": "~0.7.4"
+    "lodash": "2.4.1",
+    "request": "2.9.0",
+    "sax": "0.6",
+    "strip-bom": "0.3.1",
+    "debug": "0.7.4"
   },
   "main": "./index.js",
   "directories": {
@@ -28,11 +38,11 @@
     "soap"
   ],
   "devDependencies": {
-    "mocha": "~1.17.0",
+    "mocha": "1.17.0",
     "jshint": "2.3.0",
-    "glob": "~3.2.8",
-    "should": "~3.3.0",
-    "timekeeper": "~0.0.4"
+    "glob": "3.2.8",
+    "should": "3.3.0",
+    "timekeeper": "0.0.4"
   },
   "publishConfig": {
     "registry": "http://nexus.corp.equinix.com/nexus/content/repositories/Equinix-AquaJS-Release/"
